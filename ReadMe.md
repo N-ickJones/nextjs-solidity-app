@@ -23,3 +23,8 @@ Hardhat compile contracts, generates typescript interfaces, creates React contex
 * Install MetaMask for Chrome [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
 * Import the default mnemonic used by hardhat `test test test test test test test test test test test junk`
 * Ensure Metamask RPC is set to http://localhost:8545 and chainID **1337**
+
+
+### Development
+* Install the `solidity` vsCode extension, which should add highlighting to .sol files
+* 
