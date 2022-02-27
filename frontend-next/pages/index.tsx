@@ -1,33 +1,14 @@
-import type { NextPage } from 'next';
-import Image from 'next/image';
+import { Container, Grid, Paper } from '@mui/material';
+import Greeter from '../components/Greeter';
 
-import { Greeter } from '../components/Greeter';
-import { Symfoni } from '../hardhat/SymfoniContext';
-
-const Home: NextPage = () => {
+export default function Index() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Symfoni autoInit={true} >
-          <div className="App-logo-wrapper">
-            <Image src="/logo.svg" className="App-logo" alt="logo" layout="fill" />
-          </div>
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <Greeter></Greeter>
-        </Symfoni>
-      </header>
-    </div>
+    <Container maxWidth="md">
+      <Paper elevation={3} style={{marginTop: 100, backgroundColor: "#00ffad"}}>
+        <Grid container style={{padding: 50}}>
+          <Greeter />
+        </Grid>
+      </Paper>
+    </Container>
   )
 }
-
-export default Home
