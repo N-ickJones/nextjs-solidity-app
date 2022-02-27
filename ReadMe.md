@@ -38,3 +38,5 @@ Hardhat compile contracts, generates typescript interfaces, creates React contex
 **Step 5c**: Import the default mnemonic used by hardhat `test test test test test test test test test test test junk`
 
 **Step 6c**: Ensure Metamask RPC is set to http://localhost:8545 and chainID **1337**
+
+<br>
