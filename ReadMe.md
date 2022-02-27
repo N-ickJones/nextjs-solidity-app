@@ -1,7 +1,8 @@
 # NextJS Solidity App
 
 ## What is Hardhat?
-Hardhat is an Ethereum development environment for professionals. It facilitates performing frequent tasks, such as running tests, automatically checking code for mistakes or interacting with a smart contract.\
+Hardhat is an Ethereum development environment for professionals. It facilitates performing frequent tasks, such as running tests, automatically checking code for mistakes or interacting with a smart contract.
+<br><br>
 Hardhat compile contracts, generates typescript interfaces, creates React context and instantiates your contract instances and factories with frontend provider.
 
 ### Hardhat Terminal (Backend Server)
