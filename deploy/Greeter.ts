@@ -1,9 +1,17 @@
+
+export type GreeterType = {
+  getNamedAccounts: any;
+  deployments: any;
+  getChainId: any;
+  getUnnamedAccounts: any;
+}
+
 module.exports = async ({
   getNamedAccounts,
   deployments,
   getChainId,
   getUnnamedAccounts,
-}) => {
+}: GreeterType) => {
   const { deploy } = deployments;
   const { deployer } = await getNamedAccounts();
 

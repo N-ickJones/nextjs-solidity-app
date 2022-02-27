@@ -27,4 +27,11 @@ Hardhat compile contracts, generates typescript interfaces, creates React contex
 
 ### Development
 * Install the `solidity` vsCode extension, which should add highlighting to .sol files
-* 
+
+
+### Troubleshooting
+```
+eth_sendRawTransaction
+Nonce too high. Expected nonce to be 1 but got 4. Note that transactions can't be queued when automining.
+```
+* If you get this message during development, then in MetaMask click your avatar circle then `Settings` then `Advanced` and click `Reset Account` (ensure your on your test account).
